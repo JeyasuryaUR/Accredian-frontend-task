@@ -3,7 +3,7 @@ import { Modal, Box, TextField, Button } from '@mui/material';
 import axios from 'axios'; // Ensure you have axios installed
 
 const api = axios.create({
-    baseURL: 'https://accredian-backend-task-0afk.onrender.com',
+    baseURL: 'https://accredian-backend-task-0afk.onrender.com/',
   });
 
 const style = {
